@@ -6,20 +6,37 @@ div.test{
     height:100%;
     background-color:rgb(135, 219, 252);
     text-align:center;
-  }
+    }
   div.test .target{
     display:table-cell;
     vertical-align:middle;
-}
-
+    }
 h1 {
     color: rgb(41, 61, 245);
     font-size: 42pt;
     margin:0px;
-}
-p{
-    font-size:28pt;
-}
+    }
+div.subtitle p{
+    font-size:36pt;
+    font-weight:bold; 
+    background-color:rgb(145, 255, 0)
+    }
+    
+/* div.flg1 p{
+    font-size:36pt;
+    background-color:rgb(80, 222, 247); 
+    font-weight:bold; 
+    }
+div.flg2 p{
+    font-size:36pt;
+    background-color:rgb(145, 255, 0); 
+    font-weight:bold; 
+    }
+div.flg3 p{
+    font-size:36pt;
+    background-color:rgb(255, 0, 179); 
+    font-weight:bold; 
+    } */
 
 /*div.footer {
     text-align: right;

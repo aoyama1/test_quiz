@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <title>Index </title>
+            <meta charse="utf-8"/>
+            <link rel="stylesheet"
+            href="{{url_for('static',filename='style.css')}}">
+    </head>
+</html>
+<body>
+    <div class="test">
+        <span class="target">
+            <h1>{{title}}</h1>
+            {% if flg == 'a' %}
+                <div  class="flg1">
+                    <p style="font-size:60pt;background-color:rgb(255, 0, 179); font-weight:bold; ">不正解。正解は桶狭間の戦いでした。</p>
+                </div>
+            {% elif flg == 'b' %}
+                <div class="flg2">
+                    <p style="font-size:60pt;background-color:rgb(0, 217, 255); font-weight:bold; ">正解！！</p>
+                </div>
+            {% else %}
+                <div class= "flg3">
+                    <p style="font-size:60pt;background-color:rgb(255, 0, 179); font-weight:bold; ">不正解。正解は桶狭間の戦いでした。</p>
+                </div>
+            {% endif %}
+            <p style=" font-size:36pt">
+                {{message}}</p>
+        </span>
+    </dvi>
+</body>
+</hmtl>
